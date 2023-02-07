@@ -1,0 +1,13 @@
+search-box[data-v-7a40b944] {
+    width: 50%;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+[type=search] {
+    outline-offset: -2px;
+    -webkit-appearance: none;
+}
+div {
+    display: block;
+}

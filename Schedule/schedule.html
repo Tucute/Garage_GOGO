@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="schedule.css" />
+    <script src="schedule.js"></script>
+    <script src="data.js"></script>
+    <title>SCHEDULE</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <div data-v-7a40b944="" data-v-0d0108c8="" class="search-box" type="search" name="search-schedule"
+                    id="search-schedule">
+                    <input data-v-7a40b944="" type="text" placeholder="Tìm điểm đi..." name="search" />
+                    <button data-v-7a40b944="" type="submit">
+                        <i data-v-7a40b944="" class="fa fa-search"> </i>
+                    </button>
+                </div>
+                <div data-v-7a40b944="" data-v-0d0108c8="" class="search-box" type="search" name="search-schedule"
+                    id="search-schedule">
+                    <input data-v-7a40b944="" type="text" placeholder="Tìm điểm đến..." name="search" />
+                    <button data-v-7a40b944="" type="submit">
+                        <i data-v-7a40b944="" class="fa fa-search"></i>
+                    </button>
+                </div>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Điểm đi</th>
+                            <th>Điểm đến</th>
+                            <th>Loại xe</th>
+                            <th>Thời gian hành trình</th>
+                            <th>Giá</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody id="a"></tbody>
+                </table>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+    
+</body>
+    <script>
+        ticketCentre();
+    </script>
+</html>

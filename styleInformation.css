@@ -1,0 +1,67 @@
+.informaton-customer {
+    max-width: 936px;
+    width: 100vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+h5 {
+    font-weight: 700;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    margin-top: 30px;
+}
+.information {
+    width: 440px;
+    border: 1px solid #dce1e6;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    padding: 15px;
+}
+.title{
+    color: #ff0000;
+    text-align: center;
+}
+.customer {
+    margin-top: 20px;
+}
+label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #4a4a4a;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.address {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left-address {
+    width: 200px;
+}
+.right-address {
+    width: 200px;
+}
+.rules{
+    width: 440px;
+    border: 1px solid #dce1e6;
+    background-color: #f6f6f6;
+    border-radius: 10px;
+    padding: 15px;
+}
+.footer-btn {
+    display: flex;
+    margin-top: 20px;
+    justify-content: right;
+}
+.left-btn{
+    margin-right: 50px;
+}
+.right-btn{
+    margin-left: 50px;
+}

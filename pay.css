@@ -1,0 +1,79 @@
+.payment {
+    max-width: 936px;
+    width: 100vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.title-pay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+    background-color: #ff0000;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.title-pay h5 {
+    font-weight: 700;
+    color: #ffffff;
+    padding: 10px;
+}
+.title-information {
+    background-color: #66CDAA;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 5px;
+    padding-left: 20px;
+}
+.title-information p {
+    font-weight: 700;
+}
+.information-customer {
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    padding: 5px;
+    padding-left: 20px;
+}
+.title-tour {
+    background-color: #66CDAA;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 5px;
+    padding-left: 20px;
+}
+.title-tour p {
+    font-weight: 700;
+}
+.information-tour {
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+    padding: 5px;
+    padding-left: 20px;
+}
+.total-price {
+    display: flex;
+    justify-content: right;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.confirm {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.content-modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.title-success {
+    color: orange;
+}

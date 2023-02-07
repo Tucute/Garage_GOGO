@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Thông tin hành khách</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="styleInformation.css">
+   
+</head>
+
+<body>
+    <div class="container">
+        <div class="informaton-customer">
+            <h5>THÔNG TIN HÀNH KHÁCH</h5>
+            <div class="content">
+                <div class="information">
+                    <h6 class="title">THÔNG TIN HÀNH KHÁCH</h6>
+                    <div class="customer">
+                        <label>Họ và tên hành khách</label>
+                        <input type="text" id="pname" class="form-control">
+                        <label>Số điện thoại</label>
+                        <input type="text" id="pphone" class="form-control">
+                        <label>Email</label>
+                        <input type="text" id="pemail" class="form-control">  
+                        <div class="address">
+                            <div class="left-address">
+                                <label>Tỉnh/TP</label>
+                                <input type="text" class="form-control">    
+                            </div>
+                            <div class="right-address">
+                                <label>Quận/Huyện</label>
+                                <input type="text" class="form-control">  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rules">
+                    <h6 class="title">ĐIỀU KHOẢN & LƯU Ý </h6>
+                    <div class="imformation-rules">
+                        <p>
+                            (*) Thông tin người iu phải chính xác, nếu không sẽ không thể lên xe hoặc hủy/đổi vé.
+                        </p>
+                        <p>
+                            (*) Nếu quý không có thông tin nào về người iu, vui lòng liên hệ số điện thoại của chúng tôi để được tư 
+                            vấn nhiều hơn về chuyện tình cảm. Chúng tôi sẽ tìm mọi cách để bạn thoát ế một cách nhanh chóng.
+                             Bạn nên cân nhắc kĩ chuyên này trước khi đặt vé.
+                        </p>
+                        <p>      
+                            (*) Quý khách không được đem theo thú cưng hoặc vật nuôi tránh trường hợp các vụ tai thương tâm xảy ra.
+                        </p>
+                        <p>
+                            (*) Quý khách vui lòng mang theo bạn gái để chúng tôi xác nhận bạn đã đủ trưởng thành để đảm bảo sự tin cậy của chúng tôi dành cho các bạn.
+                        </p>
+                    </div>
+                </div>
+               
+            </div>
+             <div class="footer-btn">
+                <div class="left-btn">
+                    <button type="button" class="btn btn-warning">Quay Lại </button>
+                </div>
+                <div class="right-btn">
+                    <button type="button" onclick="getInformation()" class="btn btn-danger">Tiếp Tục </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="pay.js"></script>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

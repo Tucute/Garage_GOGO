@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="section">
+        <div class="left-section">
+            <div class="admin">
+                <h3>ADMIN</h5>
+            </div>
+            <ul class="list-item">
+                <li>User</li>
+                <li>Tour</li>
+            </ul>
+        </div>
+        <div class="right-section">
+            <div class="top-right">
+                <div class="search">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Tìm kiếm" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <span class="input-group-text" id="basic-addon2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                              </svg>
+                        </span>
+                      </div>
+                </div>
+                <div class="profile">
+                    <div class="img">
+                        <img src="https://kynguyenlamdep.com/wp-content/uploads/2022/01/hinh-anh-meo-con-sieu-cute-scaled.jpg" alt="" width="40px" height="30px">
+                    </div>
+                    <label for="">admin</label>
+                </div>
+            </div>
+            <div class="center-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Orign</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nhập điểm đi">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Destination</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nhập điểm đến">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Type</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nhập loại xe">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Distance</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nhập khoảng cách">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Duration</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nhập khoảng thời gian">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Price</label>
+                                <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Nhập giá">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-header py-3">							
+                    <button id="themmoi" onclick="addHotel()" class="btn btn-primary"><i class="fas fa-plus"></i>Thêm mới</button>						
+                    <button id="huy" onclick="removeHotel()" class="btn btn-danger"><i class="fas fa-times"></i>Huỷ</button>						
+                </div>							
+            </div>
+        </div>
+    </div>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+.btn-primary{
+    background: rgb(11, 212, 78);
+    font-size: 20px;
+    
+}
+.submit{
+    padding-left: 75%;
+    
+}
+.head{
+    display: grid;
+    padding-left:20% ;
+}
+.container{
+    padding-left: 20%;
+}
+.information{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+}
+#txt1,#gmail,#phonen,#address,#txt2{
+    background: rgb(243, 245, 240);
+    height: 40px;
+    width: 90%;
+    border-radius: 1px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    
+}
