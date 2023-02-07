@@ -19,6 +19,14 @@
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
 }
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bi {
+    margin-right: 30px;
+}
 ul {
     margin-left: 0px;
 }
@@ -27,6 +35,11 @@ ul {
     height: 60px;
     border-top: 1px solid white;
     margin: 0;
+}
+.list-item li a{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
 }
 .right-section{
     display: flex;
@@ -50,4 +63,11 @@ ul {
 }
 .row {
     margin-bottom: 20px;
+}
+.event {
+    display: flex;
+    justify-content: right;
+}
+#themmoi {
+    margin-right: 20px;
 }
