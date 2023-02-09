@@ -1,13 +1,12 @@
-search-box[data-v-7a40b944] {
-    width: 50%;
-    position: relative;
-    margin-left: 10px;
-    margin-right: 10px;
+
+#destination{
+margin-left: 100px;
 }
-[type=search] {
-    outline-offset: -2px;
-    -webkit-appearance: none;
+#tim, #tim1{
+    background-color: rgb(18, 209, 75);
+    border-radius: 10px;
+    border: 0px;
 }
-div {
-    display: block;
+#tim:hover, #tim1:hover{
+    background-color: rgb(54, 160, 85);
 }

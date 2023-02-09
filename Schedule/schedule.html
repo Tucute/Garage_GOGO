@@ -17,21 +17,17 @@
         <div class="row">
             <div class="col-md-1"></div>
             <div class="col-md-10">
-                <div data-v-7a40b944="" data-v-0d0108c8="" class="search-box" type="search" name="search-schedule"
+                <div class="search-box" type="search" name="search-schedule"
                     id="search-schedule">
-                    <input data-v-7a40b944="" type="text" placeholder="Tìm điểm đi..." name="search" />
-                    <button data-v-7a40b944="" type="submit">
-                        <i data-v-7a40b944="" class="fa fa-search"> </i>
+                    <input  id="orign" type="text"  placeholder="Tìm điểm đi..." name="search" />
+                    <button type="button" onclick="show2()" id="tim"> Search 
+                    </button>
+                    <input type="text" id="destination" placeholder="Tìm điểm đến..." name="search" />
+                    <button type="button" onclick="show3()" id="tim1"> Search
                     </button>
                 </div>
-                <div data-v-7a40b944="" data-v-0d0108c8="" class="search-box" type="search" name="search-schedule"
-                    id="search-schedule">
-                    <input data-v-7a40b944="" type="text" placeholder="Tìm điểm đến..." name="search" />
-                    <button data-v-7a40b944="" type="submit">
-                        <i data-v-7a40b944="" class="fa fa-search"></i>
-                    </button>
-                </div>
-                <table class="table table-bordered">
+                <br>
+                <table class="table table-bordered" id="tbl">
                     <thead>
                         <tr>
                             <th>Điểm đi</th>
@@ -40,11 +36,21 @@
                             <th>Thời gian hành trình</th>
                             <th>Giá</th>
                             <th></th>
+                            <th>Hoạt động</th>
                         </tr>
                     </thead>
-                    <tbody id="a"></tbody>
+                    <tbody id="tb"> </tbody>
+                    <div class="modal fade" id="mEditProduct" tabindex="-1" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">EDIT</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+
                 </table>
             </div>
+            
             <div class="col-md-1"></div>
         </div>
     </div>

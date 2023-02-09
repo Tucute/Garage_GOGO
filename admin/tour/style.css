@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: row;
 }
+
 .left-section {
     display: flex;
     flex-direction: column;
@@ -10,64 +11,78 @@
     color: white;
     margin-left: 30px;
 }
+
 .admin {
     text-align: center;
     padding: 10px;
     margin-bottom: 30px;
 }
+
 .admin h3 {
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
 }
+
 .item {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .bi {
     margin-right: 30px;
 }
+
 ul {
     margin-left: 0px;
 }
+
 .list-item li {
     list-style-type: none;
     height: 60px;
     border-top: 1px solid white;
     margin: 0;
 }
-.list-item li a{
+
+.list-item li a {
     text-decoration: none;
     font-size: 24px;
     font-weight: 700;
 }
-.right-section{
+
+.right-section {
     display: flex;
     flex-direction: column;
     margin-left: 10px;
-    width: 1200px;
+    width: 1100px;
 
 }
+
 .top-right {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding:30px;
+    padding: 30px;
 }
+
 .img img {
     border-radius: 100%;
 
 }
+
 .center-section {
     padding: 20px
 }
+
 .row {
     margin-bottom: 20px;
 }
+
 .event {
     display: flex;
     justify-content: right;
 }
+
 #themmoi {
     margin-right: 20px;
 }
