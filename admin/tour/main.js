@@ -38,6 +38,7 @@ var submitUpdate = function (i) {
     alert("Đã chỉnh sửa thành công !");
 };
 
-var onclick = function() {
-    document.getElementById('tour').style.display='none';
+var click = function() {
+    window.location.href=``;
 }
+

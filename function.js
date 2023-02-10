@@ -3,7 +3,7 @@ function checkbox() {
 }
 
 function Save() {
-    localStorage.setItem('litstPlace', JSON.stringify(tour));
+    localStorage.setItem('listPlace', JSON.stringify(tour));
 }
 function Load() {
     tour = JSON.parse(localStorage.getItem('listPlace'));

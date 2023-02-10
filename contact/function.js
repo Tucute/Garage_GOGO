@@ -5,10 +5,12 @@ function chatbox() {
         gmail: document.getElementById("gmail").value,
         phonenumber: document.getElementById("phonen").value,
         address: document.getElementById("address").value,
-        password: document.getElementById("txt2").value
+        
     }
     console.log(a);
     cusInformation.push(a);
+    localStorage.setItem('list', JSON.stringify(cusInformation));
+  
 
     var show = ''
     show += '<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">';
